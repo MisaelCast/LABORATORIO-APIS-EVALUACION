@@ -70,14 +70,14 @@ Utiliza **archivos JSON como base de datos**.
 # Documentación de Endpoints --- API Clínica Médica
 
 Esta documentación describe alguno de los **endpoints** del sistema de gestión de
-pacientes, doctores y citas.\
+pacientes, doctores y citas.
 Los endpoints son las rutas que permiten que un cliente (Postman,
-frontend, móvil, etc.) se comunique con el servidor.\
-Son importantes porque:\
+frontend, móvil, etc.) se comunique con el servidor.
+Son importantes porque:
 - Permiten **crear, leer, actualizar y gestionar** la información del
-sistema.\
+sistema.
 - Aseguran que los datos estén **bien validados** y cumplan reglas de
-negocio.\
+negocio.
 - Mantienen una estructura clara y estandarizada mediante el estilo
 **RESTful**.
 
