@@ -1,15 +1,14 @@
 # LABORATORIO-APIS-EVALUACION
 
+# Portada Institucional
 
-## Portada Institucional
-
-Instituto Tecnologico de Ensenada
-Ingeniería en Sistemas computacionales
+Instituto Tecnologico de Ensenada  
+Ingeniería en Sistemas computacionales  
 Desarrollo Web 1  
 Práctica Integradora – Sistema de Gestión de Citas Médicas  
-**Misael Castillo Rios**  
-Xenia Padilla Madrid
-**13 de noviembre del 2025**
+**Misael Castillo Rios**   
+Xenia Padilla Madrid  
+13 de noviembre del 2025
 
 ---
 
@@ -54,7 +53,7 @@ Utiliza **archivos JSON como base de datos**.
     npm start
     ```
 
-Estructura del Proyecto
+**Estructura del Proyecto**
 
     proyecto/
     ├── data/
@@ -65,10 +64,10 @@ Estructura del Proyecto
     │   └── fileManager.js
     ├── server.js
     └── package.json
-
+    
 ------------------------------------------------------------------------
 
-# 📡 Documentación de Endpoints --- API Clínica Médica
+# Documentación de Endpoints --- API Clínica Médica
 
 Esta documentación describe alguno de los **endpoints** del sistema de gestión de
 pacientes, doctores y citas.\
