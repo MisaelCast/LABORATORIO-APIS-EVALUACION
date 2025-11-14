@@ -55,7 +55,7 @@ Utiliza **archivos JSON como base de datos**.
 
 **Estructura del Proyecto**
 
-    proyecto/
+    LABORATORIO-APIS-EVALUACION/
     ├── data/
     │   ├── pacientes.json
     │   ├── doctores.json
