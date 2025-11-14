@@ -83,13 +83,13 @@ negocio.
 
 ------------------------------------------------------------------------
 
-# 👨‍⚕️ Endpoints de Pacientes
+# Endpoints de Pacientes
 
-## ➤ POST /pacientes
+## POST /pacientes
 
 Registrar un nuevo paciente.
 
-### 📥 Request:
+### Request:
 
 ``` json
 {
@@ -100,7 +100,7 @@ Registrar un nuevo paciente.
 }
 ```
 
-### 📤 Response:
+### Response:
 
 ``` json
 {
@@ -118,11 +118,11 @@ Registrar un nuevo paciente.
 
 ------------------------------------------------------------------------
 
-## ➤ GET /pacientes
+## GET /pacientes
 
 Listar todos los pacientes.
 
-### 📤 Response:
+### Response:
 
 ``` json
 [
@@ -145,11 +145,11 @@ Listar todos los pacientes.
 
 ------------------------------------------------------------------------
 
-## ➤ GET /pacientes/:id
+## GET /pacientes/:id
 
 Obtener un paciente por ID.
 
-### 📤 Response:
+### Response:
 
 ``` json
 {
@@ -163,11 +163,11 @@ Obtener un paciente por ID.
 
 ------------------------------------------------------------------------
 
-## ➤ GET /pacientes/:id/historial
+## GET /pacientes/:id/historial
 
 Consultar historial de citas del paciente.
 
-### 📤 Response:
+### Response:
 
 ``` json
 [
@@ -184,13 +184,13 @@ Consultar historial de citas del paciente.
 
 ------------------------------------------------------------------------
 
-# 🩺 Endpoints de Doctores
+# Endpoints de Doctores
 
-## ➤ POST /doctores
+## POST /doctores
 
 Registrar un nuevo doctor.
 
-### 📥 Request:
+### Request:
 
 ``` json
 {
@@ -202,7 +202,7 @@ Registrar un nuevo doctor.
 }
 ```
 
-### 📤 Response:
+### Response:
 
 ``` json
 {
@@ -220,11 +220,11 @@ Registrar un nuevo doctor.
 
 ------------------------------------------------------------------------
 
-## ➤ GET /doctores/especialidad/:especialidad
+## GET /doctores/especialidad/:especialidad
 
 Buscar doctores por especialidad.
 
-### 📤 Response:
+### Response:
 
 ``` json
 [
@@ -238,13 +238,13 @@ Buscar doctores por especialidad.
 
 ------------------------------------------------------------------------
 
-# 📅 Endpoints de Citas
+# Endpoints de Citas
 
-## ➤ POST /citas
+## POST /citas
 
 Agendar una nueva cita.
 
-### 📥 Request:
+### Request:
 
 ``` json
 {
@@ -256,7 +256,7 @@ Agendar una nueva cita.
 }
 ```
 
-### 📤 Response:
+### Response:
 
 ``` json
 {
@@ -275,11 +275,11 @@ Agendar una nueva cita.
 
 ------------------------------------------------------------------------
 
-## ➤ PUT /citas/:id/cancelar
+## PUT /citas/:id/cancelar
 
 Cancelar una cita programada.
 
-### 📤 Response:
+### Response:
 
 ``` json
 {
@@ -293,11 +293,11 @@ Cancelar una cita programada.
 
 ------------------------------------------------------------------------
 
-## ➤ GET /citas?fecha=YYYY-MM-DD&estado=programada
+## GET /citas?fecha=YYYY-MM-DD&estado=programada
 
 Consultar citas filtradas.
 
-### 📤 Response:
+### Response:
 
 ``` json
 [
@@ -314,13 +314,13 @@ Consultar citas filtradas.
 
 ------------------------------------------------------------------------
 
-# 🕒 Endpoints de Estadísticas
+# Endpoints de Estadísticas
 
-## ➤ GET /estadisticas/doctores
+## GET /estadisticas/doctores
 
 Devuelve el doctor con más citas.
 
-### 📤 Response:
+### Response:
 
 ``` json
 {
@@ -331,11 +331,11 @@ Devuelve el doctor con más citas.
 
 ------------------------------------------------------------------------
 
-## ➤ GET /estadisticas/especialidades
+## GET /estadisticas/especialidades
 
 Devuelve la especialidad más solicitada.
 
-### 📤 Response:
+### Response:
 
 ``` json
 {
@@ -348,11 +348,11 @@ Devuelve la especialidad más solicitada.
 
 # Notificaciones
 
-## ➤ GET /citas/proximas
+## GET /citas/proximas
 
 Citas dentro de las siguientes 24 horas.
 
-### 📤 Response:
+### Response:
 
 ``` json
 [
