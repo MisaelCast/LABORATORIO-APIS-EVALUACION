@@ -372,28 +372,29 @@ Citas dentro de las siguientes 24 horas.
 ## **Casos de Prueba Realizados**
 
 ### ✔ Crear paciente
+![Crear paciente](./assets/1.png)
 
 
 
 ### ✔ Crear doctor
-
+![img](./assets/2.png)
 
 
 ### ✔ Agendar cita
-
+![img](./assets/3.png)
 
 
 ### ❌ Agendar cita en horario no disponible
-
+![img](./assets/4.png)
 
 ### ❌ Dos citas al mismo doctor a la misma hora
-
+![img](./assets/5.png)
 
 ### ✔ Cancelar una cita
-
+![img](./assets/6.png)
 
 ### ✔ Consultar historial de un paciente
-
+![img](./assets/7.png)
 
 ------------------------------------------------------------------------
 
