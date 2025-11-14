@@ -1,0 +1,26 @@
+[
+  {
+    "id": "P001",
+    "nombre": "María González",
+    "edad": 35,
+    "telefono": "555-0101",
+    "email": "maria.g@email.com",
+    "fechaRegistro": "2025-01-15"
+  },
+  {
+    "id": "P002",
+    "nombre": "galindo",
+    "edad": 27,
+    "telefono": "555-0189",
+    "email": "galindo@gmail.com",
+    "fechaRegistro": "2025-11-13"
+  },
+  {
+    "id": "P003",
+    "nombre": "misael castillo",
+    "edad": 26,
+    "telefono": "555-0112",
+    "email": "misael@gmail.com",
+    "fechaRegistro": "2025-11-13"
+  }
+]

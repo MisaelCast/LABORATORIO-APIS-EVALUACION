@@ -1,0 +1,40 @@
+[
+  {
+    "id": "D001",
+    "nombre": "Dr. Carlos Méndez",
+    "especialidad": "Cardiología",
+    "horarioInicio": "09:00",
+    "horarioFin": "17:00",
+    "diasDisponibles": [
+      "Lunes",
+      "Martes",
+      "Miércoles",
+      "Jueves",
+      "Viernes"
+    ]
+  },
+  {
+    "id": "D002",
+    "nombre": "Dra. Yesica",
+    "especialidad": "Pediatría",
+    "horarioInicio": "07:00",
+    "horarioFin": "14:00",
+    "diasDisponibles": [
+      "Lunes",
+      "Martes",
+      "Miércoles"
+    ]
+  },
+  {
+    "id": "D003",
+    "nombre": "Dra. jazmin",
+    "especialidad": "nutriologia",
+    "horarioInicio": "07:00",
+    "horarioFin": "14:00",
+    "diasDisponibles": [
+      "Lunes",
+      "Martes",
+      "Miércoles"
+    ]
+  }
+]
